@@ -1,0 +1,38 @@
+{
+  "name": "keep-out-polyfill",
+  "version": "1.2.3",
+  "main": "dist/keep-out-polyfill.umd.js",
+  "module": "dist/keep-out-polyfill.esm.js",
+  "unpkg": "dist/keep-out-polyfill.min.js",
+  "scripts": {
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/keep-out-polyfill.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/keep-out-polyfill.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/keep-out-polyfill.min.js"
+  },
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-uglify": "^6.0.2"
+  },
+  
+  "author": "xuejihong",
+  "license": "MIT",
+  "description": "virtual keyboard show/hidden event hook",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XueMary/keep-out-polyfill.git"
+  },
+  "keywords": [
+    "keep-out",
+    "polyfill",
+    "keyBoard",
+    "javascript",
+    "hooks"
+  ],
+  "bugs": {
+    "url": "https://github.com/XueMary/keep-out-polyfill/issues",
+    "email": "bart163x@gmail.com"
+  },
+  "homepage": "https://github.com/XueMary/keep-out-polyfill#readme"
+}
