@@ -3,7 +3,7 @@ class KeepOut {
     this.winHeight = window.innerHeight;
     this.navHeight = screen.availHeight - this.winHeight
     this.isKeepOut = null
-    this.isbodyHide = window.getComputedStyle(document.body, null).getPropertyValue("overflow") === 'hidden'
+    this.isbodyHide = null
     
     this.keyHeight = 0
     this.clientY = 0
@@ -68,6 +68,7 @@ class KeepOut {
       this.clientY = event.clientY
     })
     window.addEventListener('keyboardFocus', () => {
+      this.isbodyHide = window.getComputedStyle(document.body, null).getPropertyValue("overflow") === 'hidden'
       this.onceComput()
       this.focusFn()
     })

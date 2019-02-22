@@ -1,6 +1,6 @@
 {
   "name": "keep-out-polyfill",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "dist/keep-out-polyfill.umd.js",
   "module": "dist/keep-out-polyfill.esm.js",
   "unpkg": "dist/keep-out-polyfill.min.js",
