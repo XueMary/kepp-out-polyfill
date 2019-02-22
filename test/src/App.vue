@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    
-    <img alt="Vue logo" src="./assets/logo.png">
+    <input>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     {{text}}
+    <input>
+    <input>
     <input>
   </div>
 </template>
@@ -34,5 +35,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body{
+  /* overflow: hidden; */
 }
 </style>
