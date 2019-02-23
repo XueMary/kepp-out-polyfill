@@ -1,10 +1,10 @@
-# kepp-out-polyfill
+# keep-out-polyfill
 The keyboard cover polyfill
 
 
 ## useage
 
 ```
-npm i kepp-out-polyfill
-import 'kepp-out-polyfill'
+npm i keep-out-polyfill
+import 'keep-out-polyfill'
 ```
