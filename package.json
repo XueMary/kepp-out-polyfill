@@ -1,6 +1,6 @@
 {
   "name": "keep-out-polyfill",
-  "version": "1.2.7",
+  "version": "1.2.16",
   "main": "dist/keep-out-polyfill.umd.js",
   "module": "dist/keep-out-polyfill.esm.js",
   "unpkg": "dist/keep-out-polyfill.min.js",
@@ -20,7 +20,7 @@
   "description": "virtual keyboard show/hidden event hook",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XueMary/keep-out-polyfill.git"
+    "url": "git+https://github.com/XueMary/kepp-out-polyfill.git"
   },
   "keywords": [
     "keep-out",
@@ -30,11 +30,11 @@
     "hooks"
   ],
   "bugs": {
-    "url": "https://github.com/XueMary/keep-out-polyfill/issues",
+    "url": "https://github.com/XueMary/kepp-out-polyfill/issues",
     "email": "bart163x@gmail.com"
   },
-  "homepage": "https://github.com/XueMary/keep-out-polyfill#readme",
+  "homepage": "https://github.com/XueMary/kepp-out-polyfill#readme",
   "dependencies": {
-    "key-board-hook": "^1.0.2"
+    "key-board-hook": "^1.0.7"
   }
 }

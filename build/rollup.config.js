@@ -10,6 +10,6 @@ export default {
         buble({
             exclude: 'node_modules/**',
         }), // Transpile to ES5
-        uglify()
+        // uglify()
     ],
 };

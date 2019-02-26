@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'key-board-hook'
+
 import './keep-out-polyfill'
 
 Vue.config.productionTip = false
